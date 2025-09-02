@@ -1,0 +1,46 @@
+{
+  "id": "pal_pyronix",
+  "name": "Pyronix",
+  "type": "Pal",
+  "rarity": "Legendary",
+  "stars": 5,
+  "description": "Pyronix, the Blazecrest Pal, was born from a spark of the sun itself. Its fiery feathers shimmer like molten embers, and its piercing blue eyes blaze with courage. Known to bond only with the bravest, Pyronix’s loyalty ignites unmatched rewards.",
+  "traits": {
+    "element": "Fire",
+    "class": "Flying",
+    "role": "Guardian"
+  },
+  "abilities": {
+    "signature_move": "Inferno Dive",
+    "passive": "Solar Fury"
+  },
+  "stats": {
+    "height_m": 1.6,
+    "weight_kg": 27,
+    "base_power": 95,
+    "speed": 80,
+    "defense": 70
+  },
+  "earning_potential": {
+    "base_multiplier": "12x+",
+    "loyalty_bonus": "Maximum",
+    "dividend_frequency": "Daily"
+  },
+  "upkeep": {
+    "needs": ["Feeding", "Play", "Interaction"],
+    "impact": "Very high",
+    "effect_on_rewards": "Well-kept Pyronix produces maximum dividends. Neglect reduces payout."
+  },
+  "loyalty": {
+    "description": "The longer Pyronix stays with you and is cared for, the more loyalty it builds.",
+    "effects": [
+      "Boosts dividend multipliers over time",
+      "Strengthens battle performance"
+    ]
+  },
+  "visuals": {
+    "color": "Fiery orange with ember-like glow",
+    "eyes": "Piercing blue",
+    "crest": "Flame-shaped, radiant"
+  }
+}
