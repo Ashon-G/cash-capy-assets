@@ -1,0 +1,80 @@
+{
+  "name": "Pals Collection",
+  "description": "A set of NFT companions in the Cash Capy app. Each Pal has unique traits, rarity levels, and daily earning potential based on upkeep and loyalty.",
+  "category": "NFT Collectibles",
+  "game_integration": "Cash Capy Mini-Game",
+  "mechanics": {
+    "rarity": [
+      {
+        "tier": "Common",
+        "stars": 1,
+        "base_dividend_multiplier": "1x – 2x",
+        "upkeep_impact": "Low",
+        "loyalty_effect": "Small boost"
+      },
+      {
+        "tier": "Uncommon",
+        "stars": 2,
+        "base_dividend_multiplier": "2x – 4x",
+        "upkeep_impact": "Moderate",
+        "loyalty_effect": "Moderate boost"
+      },
+      {
+        "tier": "Rare",
+        "stars": 3,
+        "base_dividend_multiplier": "4x – 7x",
+        "upkeep_impact": "Noticeable",
+        "loyalty_effect": "Strong boost"
+      },
+      {
+        "tier": "Epic",
+        "stars": 4,
+        "base_dividend_multiplier": "7x – 12x",
+        "upkeep_impact": "High",
+        "loyalty_effect": "Large boost"
+      },
+      {
+        "tier": "Legendary",
+        "stars": 5,
+        "base_dividend_multiplier": "12x+",
+        "upkeep_impact": "Very high",
+        "loyalty_effect": "Maximum boost"
+      }
+    ],
+    "upkeep": {
+      "description": "Players maintain Pals by feeding, playing, and interacting with them. Better upkeep improves dividend consistency and growth.",
+      "effects": [
+        "Well-kept Pals generate stronger rewards",
+        "Neglected Pals may reduce their daily payout"
+      ]
+    },
+    "loyalty": {
+      "description": "The longer a Pal stays with you and is cared for, the more loyalty it builds.",
+      "effects": [
+        "Increases dividend multipliers over time",
+        "Encourages consistent daily interaction"
+      ]
+    },
+    "dividends": {
+      "frequency": "Daily",
+      "calculation_factors": [
+        "Pal rarity",
+        "Upkeep level",
+        "Loyalty multiplier"
+      ]
+    }
+  },
+  "nfts": [
+    {
+      "id": "pal_pyronix",
+      "name": "Pyronix",
+      "rarity": "Legendary",
+      "stars": 5,
+      "description": "Pyronix, the Blazecrest Pal, was born from a spark of the sun itself. Its fiery feathers shimmer like molten embers, and its piercing blue eyes blaze with courage. Known to bond only with the bravest, Pyronix’s loyalty ignites unmatched rewards.",
+      "traits": ["Fire", "Flying", "Guardian"],
+      "earning_multiplier": "12x+",
+      "loyalty_bonus": "Maximum"
+    }
+  ],
+  "notes": "This is a living collection. New Pals will be added over time, each with distinct designs, personalities, and reward mechanics."
+}
